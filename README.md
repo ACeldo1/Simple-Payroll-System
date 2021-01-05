@@ -2,11 +2,11 @@
 Simple Payroll System from Software Engineer/Development course taken at the College of Staten Island CUNY
 
 Contributors:
-Andy Celdo
-Kimberly Modeste
-Zhanyao Xu
-Marc Smith
-Rafael DeLuna
+- [Andy Celdo]
+- [Kimberly Modeste]
+- [Zhanyao Xu]
+- [Marc Smith]
+- [Rafael DeLuna]
 
 Special Thanks to Alexandria Thorpe for contributing the application's logo!
 
