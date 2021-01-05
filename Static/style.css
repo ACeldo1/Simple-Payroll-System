@@ -1,0 +1,12 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*Will add more to this, this is just for decoration that I'm not able to do with SceneBuilder, so not super important */
+
+.jfx-hamburger StackPane {
+	-fx-background-color: yellow;
+}
+
+.button:hover {
+	-fx-background-color: gold;
+	-fx-text-fill: #ffffff;
+	-fx-text-alignment: center;
+}
