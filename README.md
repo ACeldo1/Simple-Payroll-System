@@ -1,24 +1,24 @@
 # Simple-Payroll-System
-Simple Payroll System from Software Engineer/Development course taken at the College of Staten Island CUNY
+Simple Payroll System from Software Engineering/Development course taken at the College of Staten Island CUNY
 
 Contributors:
-- [Andy Celdo]
-- [Kimberly Modeste]
-- [Zhanyao Xu]
-- [Marc Smith]
-- [Rafael DeLuna]
+- Andy Celdo
+- Kimberly Modeste
+- Zhanyao Xu
+- Marc Smith
+- Rafael DeLuna
 
 Special Thanks to Alexandria Thorpe for contributing the application's logo!
 
 # Table Of Contents 
 
 - [Intro](#intro)
-- [Dependencies](#depend)
-- [Accomplishments (so far)](#accomplish)
+- [Dependencies](#dependencies)
+- [Accomplishments (so far)](#accomplishments-(subject-to-change))
   - [Login Page](#login)
-  - [Employee View](#employee)
-  - [Manager View](#manager)
-- [Potential/Future Implementations](#changes)
+  - [Employee View](#employee-view)
+  - [Manager View](#manager-view)
+- [Potential/Future Implementations](#potential/future-implementations)
 
 # Intro
 
