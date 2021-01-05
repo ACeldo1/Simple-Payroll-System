@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="baseAnchor" maxHeight="700.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeePaneController">
+   <children>
+      <Pane fx:id="employeePane" maxHeight="700.0" maxWidth="900.0" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: white;">
+         <children>
+            <Pane fx:id="displayPane" maxHeight="425.0" maxWidth="675.0" prefHeight="425.0" prefWidth="650.0" style="-fx-background-color: white;" />
+         </children></Pane>
+   </children>
+</AnchorPane>

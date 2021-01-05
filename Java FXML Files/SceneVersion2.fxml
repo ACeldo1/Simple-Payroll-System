@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane fx:id="outerAnchorPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;">
+         <children>
+            <BorderPane fx:id="borderPane" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+               <top>
+                  <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Example A">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Example A1" />
+                              <MenuItem mnemonicParsing="false" text="Example A2" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Example B">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Example B1" />
+                              <MenuItem mnemonicParsing="false" text="Example B2" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </top>
+               <left>
+                  <AnchorPane fx:id="innerAnchorPane" prefHeight="378.0" prefWidth="44.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXDrawer fx:id="drawer" alignment="TOP_LEFT" defaultDrawerSize="300.0" layoutY="41.0" prefHeight="335.0" prefWidth="103.0" />
+                        <JFXHamburger fx:id="hamburger" alignment="CENTER" prefHeight="34.0" prefWidth="46.0" stylesheets="@style.css" AnchorPane.rightAnchor="0.0">
+                           <effect>
+                              <Glow level="0.5" />
+                           </effect>
+                        </JFXHamburger>
+                     </children>
+                  </AnchorPane>
+               </left>
+               <bottom>
+                  <AnchorPane prefHeight="20.0" prefWidth="1100.0" style="-fx-background-color: midnightblue;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Text fill="IVORY" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@MemeMatrix" textAlignment="CENTER" wrappingWidth="585.1830348968506" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                     <padding>
+                        <Insets left="250.0" right="250.0" />
+                     </padding></AnchorPane>
+               </bottom>
+               <center>
+                  <StackPane fx:id="centralStackPane" maxHeight="700.0" maxWidth="900.0" prefHeight="600.0" prefWidth="850.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXTabPane fx:id="tabPane" maxHeight="700.0" maxWidth="900.0" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: green;">
+                           <tabs>
+                              <Tab text="Employees">
+                                <content>
+                                  <AnchorPane fx:id="employeesAnchorPane" accessibleText="Employee_Table" prefHeight="580.0" prefWidth="850.0" style="-fx-background-color: blue;" />
+                                </content>
+                              </Tab>
+                              <Tab text="Benefits">
+                                <content>
+                                  <AnchorPane fx:id="benefitsAnchorPane" accessibleText="Benefits_Table" prefHeight="580.0" prefWidth="850.0" style="-fx-background-color: blue;" />
+                                </content>
+                              </Tab>
+                              <Tab text="Taxes/Deductions">
+                                <content>
+                                  <AnchorPane fx:id="taxesAnchorPane" accessibleText="Taxes_Table" prefHeight="580.0" prefWidth="850.0" style="-fx-background-color: blue;" />
+                                </content>
+                              </Tab>
+                              <Tab text="Gross Pay">
+                                 <content>
+                                    <AnchorPane fx:id="grossAnchorPane" accessibleText="Gross_Table" prefHeight="580.0" prefWidth="850.0" style="-fx-background-color: blue;" />
+                                 </content>
+                              </Tab>
+                              <Tab text="Net Pay">
+                                 <content>
+                                    <AnchorPane fx:id="netAnchorPane" accessibleText="Net_Table" prefHeight="580.0" prefWidth="850.0" style="-fx-background-color: blue;" />
+                                 </content>
+                              </Tab>
+                           </tabs>
+                        </JFXTabPane>
+                        <Pane fx:id="employeeInfoPane" maxHeight="700.0" maxWidth="900.0" prefHeight="600.0" prefWidth="850.0" />
+                     </children>
+                  </StackPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane fx:id="grossPane" maxHeight="600.0" maxWidth="850.0" minHeight="580.0" minWidth="800.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GrossTreeTableView">
+   <children>
+      <JFXTreeTableView fx:id="grossTreeView" maxHeight="600.0" maxWidth="850.0" minHeight="580.0" minWidth="800.0" style="-fx-background-color: silver;" />
+   </children>
+</FlowPane>
