@@ -1,5 +1,5 @@
 # Simple-Payroll-System
-Simple Payroll System from Software Engineering/Development course taken at the College of Staten Island CUNY
+Simple Payroll System for Software Engineering/Development course taken at the College of Staten Island CUNY
 
 Contributors:
 - Andy Celdo
