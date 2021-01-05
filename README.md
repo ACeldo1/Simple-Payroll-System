@@ -14,7 +14,7 @@ Special Thanks to Alexandria Thorpe for contributing the application's logo!
 
 - [Intro](#intro)
 - [Dependencies](#dependencies)
-- [Accomplishments (so far)](#accomplishments-(subject-to-change))
+- [Accomplishments (subject to change)](#accomplishments)
   - [Login Page](#login)
   - [Employee View](#employee-view)
   - [Manager View](#manager-view)
@@ -30,7 +30,7 @@ seperately before integration testing.
 
 Will link posts, articles, and anything else that was useful towards the creation of this project
 
-# Accomplishments (subject to change)
+# Accomplishments
 
   ## Login
 
